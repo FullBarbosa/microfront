@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "sourceMap": true,
+    "allowJs": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    },
+    "esModuleInterop": true,
+    "lib": ["es6", "dom", "esnext.asynciterable"]
+  },
+  "include": ["src", "shell/Shell", "shell/Service", "src/components", "src/custom.d.ts"]
+}
